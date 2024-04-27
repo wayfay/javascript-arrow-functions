@@ -1,1 +1,2 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const fullName = name || 'buddy';
+console.log(+"1" +  "1" + "2");
