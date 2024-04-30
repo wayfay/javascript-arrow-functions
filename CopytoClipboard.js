@@ -1,3 +1,3 @@
-console.log(false == '0');
-console.log( "A" - "B" + 2);
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+console.log(false === '0');
