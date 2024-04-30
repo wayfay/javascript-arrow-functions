@@ -1,3 +1,3 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
 console.log(false === '0');
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const merge = [...new Set([...a, ...b])];
