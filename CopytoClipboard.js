@@ -1,3 +1,2 @@
-console.log(false === '0');
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-const merge = [...new Set([...a, ...b])];
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
