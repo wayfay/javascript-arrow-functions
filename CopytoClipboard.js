@@ -1,2 +1,3 @@
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const merge = (a, b) => a.concat(b);
+var pattern = {};
