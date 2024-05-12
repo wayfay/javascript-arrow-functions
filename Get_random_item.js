@@ -1,2 +1,2 @@
-const merge = Object.assign({}, obj1, obj2);
-const merge = (a, b) => a.concat(b);
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const buildOutputPath = path.join(repositoryRootPath, 'out');
