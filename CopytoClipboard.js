@@ -1,3 +1,3 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-const merge = (a, b) => a.concat(b);
-var pattern = {};
+const isTabInView = () => !document.hidden;
+const appName = getAppName(channel);
+const isEmptyObject = obj => Object.keys(obj).length === 0;
