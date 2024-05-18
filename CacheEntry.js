@@ -1,2 +1,2 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-function myAPITS(someString: string, someNum: number) { ... };
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const merge = (a, b) => a.concat(b);
