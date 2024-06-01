@@ -1,3 +1,3 @@
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-console.log( "A" - "B" + 2);
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const repositoryRootPath = path.resolve(__dirname, '..');
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
