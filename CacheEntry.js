@@ -1,2 +1,3 @@
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-const intermediateAppPath = path.join(buildOutputPath, 'app');
+const uniqueArr = (arr) => [...new Set(arr)];
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
