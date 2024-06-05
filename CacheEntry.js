@@ -1,3 +1,2 @@
-const uniqueArr = (arr) => [...new Set(arr)];
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const uniqueArray = arr => [...new Set(arr)];
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
