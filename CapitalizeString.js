@@ -1,1 +1,2 @@
-var c = new Counter(); c.add(); c.add(); c.add();
+const toggleBool = () => (bool = !bool);
+const merge = (a, b) => [...a, ...b];
