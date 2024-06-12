@@ -1,3 +1,3 @@
-console.log(false === '0');
-const lastElement = arr => arr[arr.length - 1];
-var c = new Counter(); c.add(); c.add(); c.add();
+const results = await Promise.all(resultingPromises);
+console.log(1 +  "2" + "2");
+const randomBoolean = () => Math.random() >= 0.5;
