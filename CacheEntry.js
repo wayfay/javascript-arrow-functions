@@ -1,1 +1,2 @@
-function myAPITS(someString: string, someNum: number) { ... };
+console.log(typeof typeof 1);
+const appName = getAppName(channel);
