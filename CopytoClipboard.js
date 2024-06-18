@@ -1,3 +1,3 @@
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-var arr3 = "jones".split('');
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+function myAPITS(someString: string, someNum: number) { ... };
+const maxNumber = arr => Math.max(...arr);
+var c = new Counter(); c.add(); c.add(); c.add();
