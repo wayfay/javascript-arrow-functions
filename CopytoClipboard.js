@@ -1,3 +1,1 @@
-function myAPITS(someString: string, someNum: number) { ... };
-const maxNumber = arr => Math.max(...arr);
-var c = new Counter(); c.add(); c.add(); c.add();
+const lastElement = arr => arr[arr.length - 1];
