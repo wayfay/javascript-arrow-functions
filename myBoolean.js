@@ -1,3 +1,3 @@
-var arr1 = "john".split('');
-const executableName = getExecutableName(channel, appName);
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+console.log( "A" - "B" + 2);
