@@ -1,3 +1,3 @@
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-console.log( "A" - "B" + 2);
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const value = ( 5 < 7 ) ? "True" : "False" ;
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
