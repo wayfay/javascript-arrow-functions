@@ -1,1 +1,3 @@
-const lastElement = arr => arr[arr.length - 1];
+[foo, bar] = [bar, foo];
+const merge = (a, b) => [...a, ...b];
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
