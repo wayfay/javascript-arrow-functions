@@ -1,3 +1,3 @@
-const goToTop = () => window.scrollTo(0, 0);
-console.log(1 +  +"2" + "2");
-console.log(+"1" +  "1" + "2");
+function myAPITS(someString: string, someNum: number) { ... };
+const isEmptyArray = arr => !arr.length;
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
