@@ -1,1 +1,2 @@
-const resultingPromises = urls.map((url) => makHttpRequest(url));
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
