@@ -1,2 +1,1 @@
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
