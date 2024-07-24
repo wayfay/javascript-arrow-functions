@@ -1,3 +1,3 @@
-function myAPITS(someString: string, someNum: number) { ... };
-const isEmptyArray = arr => !arr.length;
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const merge = (a, b) => a.concat(b);
+var arr1 = "john".split('');
+const stringReverse = str => str.split("").reverse().join("");
